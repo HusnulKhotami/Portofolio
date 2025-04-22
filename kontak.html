@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - HusTam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <header class="bg-gray-800 text-white p-4 flex justify-between items-center sticky top-0 z-10">
+    <div class="text-xl font-bold">HusTam</div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="home.html" class="hover:underline nav-link">Home</a></li>
+        <li><a href="about.html" class="hover:underline nav-link">About</a></li>
+        <li><a href="projek.html" class="hover:underline nav-link">Projects</a></li>
+        <li><a href="certif.html" class="hover:underline nav-link">Certificates</a></li>
+        <li><a href="kontak.html" class="hover:underline nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="https://www.linkedin.com/in/husnul-khotami" target="_blank" class="bg-blue-500 px-4 py-2 rounded text-white hover:bg-blue-600 transition">Linkedin</a>
+  </header>
+
+  <!-- Contact Section -->
+<section id="contact" class="p-10 text-center fade-in">
+  <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+
+  <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-6 text-lg">
+    <a href="mailto:khotamihusnul@gmail.com" class="flex items-center gap-3 text-blue-400 hover:text-blue-500 transition">
+      <i class="fas fa-envelope fa-lg"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://www.instagram.com/husnul.khotami" target="_blank" class="flex items-center gap-3 text-pink-400 hover:text-pink-500 transition">
+      <i class="fab fa-instagram fa-lg"></i>
+      <span>Instagram</span>
+    </a>
+
+    <a href="https://t.me/Nullaable" target="_blank" class="flex items-center gap-3 text-blue-400 hover:text-blue-500 transition">
+      <i class="fab fa-telegram fa-lg"></i>
+      <span>Telegram</span>
+    </a>
+    
+  </div>
+
+  <form class="max-w-md mx-auto mt-6">
+    <input type="text" placeholder="Your Name" class="border w-full mb-4 p-2 rounded" />
+    <input type="email" placeholder="Your Email" class="border w-full mb-4 p-2 rounded" />
+    <textarea placeholder="Your Message" class="border w-full p-2 rounded h-32"></textarea>
+    <button type="submit" class="mt-4 bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition">Send</button>
+  </form>
+</section>
+
+<footer class="bg-gray-900 text-white text-center p-4 text-sm">
+  &copy; 2025 HusTam. All rights reserved.
+</footer>
+
+  <script src="js/about.js"></script>
+</body>
+</html>
